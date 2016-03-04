@@ -1,5 +1,54 @@
-.container {
-  margin: 0 auto;
+section {
+    max-width: 50em;
+    margin: auto;
+    
 }
 
-/*Put your code here*/
+footer {
+    border-top: solid 1px;
+}
+
+section h1 {
+    padding-bottom: 5px;
+    border-bottom: solid 1px;
+}
+
+header {
+    width: 100%; 
+    display: inline-block;
+    background-color: black;
+}
+
+header a{
+    color: white;
+}
+
+header span{
+    display: inline;
+    float: left;
+    margin-top: 5px;
+}
+
+header span a {
+    display: inline;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    float:left;
+    padding-left: 10px;
+}
+
+nav ul {
+    float: right;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: inline;
+    float: center;
+    padding: 0px, 5px;
+    margin: 5px;;
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
